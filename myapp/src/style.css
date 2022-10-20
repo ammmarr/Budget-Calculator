@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,600;1,100;1,200&family=Roboto+Mono:wght@100;200;300&display=swap');.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body {
+  background: linear-gradient(to right, #d9a7c7, #fffcdc);
+  font-family: "Montserrat", sans-serif;
+}
+h1{
+  font-size: 50px;
+  color: #470d23;
+}
+.card {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+input {
+  background-color: rgba(255, 241, 254, 0.843);
+  width: 30%;
+  height: 40px;
+  padding: 5px;
+  border: rgb(132, 132, 132) solid 1px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 0px 10px 0px 20px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #491a57;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  font-size: 20px;
+  margin: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.budget {
+  margin: 0px auto 0px auto;
+}
+.budget-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info h3 {
+  width: 280px;
+  height: 80px;
+  background-color: #ffc0e87c;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: #7b163d solid 1px;
+}
+.output-component-container{
+    
+    width: 60vw;
+    margin: 20px 0px 20px 0px;
+}
+.output-component{
+    width: inherit;
+    height: fit-content;
+    size: inherit;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffffb4;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: #fff 0.5px solid;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+}
+.output-display{
+    color: black;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight:600;
+
+}
+
+.material-symbols-sharp {
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 400,
+  'GRAD' 100,
+  'opsz' 90,;
+  color: red;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #491a579b;
+}
+button:active{
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
