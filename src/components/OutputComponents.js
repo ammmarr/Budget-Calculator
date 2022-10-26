@@ -8,8 +8,8 @@ export default function OutputComponents(props) {
         <p>{props.cost}</p>
       </div>
       <span onClick={props.delete} className="material-symbols-sharp">
-delete
-</span>
+        delete
+      </span>
     </div>
   );
 }
